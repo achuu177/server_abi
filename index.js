@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use(
   cors({
-      origin: ["http://localhost:5173"],
+      origin: ["http://localhost:5173", "https://vercel.com/aswathi-k-ps-projects/client-abi"],
       methods: ["GET", "PUT", "POST", "DELETE", "OPTIONS"],
       credentials: true,
   })
